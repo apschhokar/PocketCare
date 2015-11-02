@@ -1,23 +1,17 @@
-### BTLE_Transfer ###
+### Pocket Care iOS APP UB ###
 
 ===========================================================================
 DESCRIPTION:
 
-This sample shows how to transfer data from an iOS device in CoreBluetooth Peripheral Mode to another in Central Mode, by using a CBCharacteristic on the Peripheral side that changes its value.  The value change is automatically picked up on the Central side.
-
-This sample shows how to handle flow control in this scenario.
-
-It also covers a rudimentary way of connecting two devices using the RSSI value as an approximation of distance between them.
-
 ===========================================================================
 BUILD REQUIREMENTS:
 
-Xcode 4.5 with iOS 6 SDK
+Xcode 7 with iOS 9 SDK
 
 ===========================================================================
 RUNTIME REQUIREMENTS:
 
-iOS 6
+iOS 9
 
 ===========================================================================
 PACKAGING LIST:
@@ -36,7 +30,6 @@ TransferService.h - Transfer service and characteristic UUID declarations.
 
 ===========================================================================
 
-Using the sample
 
 1. Run the sample on two devices which support Bluetooth LE and have iOS 6 installed
 
@@ -61,4 +54,3 @@ Version 1.0
 - First version.
 
 ===========================================================================
-Copyright (C) 2012 Apple Inc. All rights reserved.
