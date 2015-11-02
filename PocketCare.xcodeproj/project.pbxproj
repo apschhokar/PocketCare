@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D18A9F61BE0A218008CDD5E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D18A9F51BE0A218008CDD5E /* CoreAudio.framework */; };
+		2D18A9FD1BE0A623008CDD5E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D18A9FC1BE0A623008CDD5E /* AVFoundation.framework */; };
+		2D18AA041BE0B521008CDD5E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D18AA031BE0B521008CDD5E /* AudioToolbox.framework */; };
+		2D91E2591BE7CD2900B134B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91E2421BE7CD2900B134B6 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		2D91E25E1BE7CD2900B134B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D91E24B1BE7CD2900B134B6 /* InfoPlist.strings */; settings = {ASSET_TAGS = (); }; };
+		2D91E2611BE7CD2900B134B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91E2511BE7CD2900B134B6 /* main.m */; settings = {ASSET_TAGS = (); }; };
+		2D91E2621BE7CD2900B134B6 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D91E2531BE7CD2900B134B6 /* ReadMe.txt */; settings = {ASSET_TAGS = (); }; };
+		2D91E26A1BE7CE3800B134B6 /* PocketCare.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D91E2691BE7CE3800B134B6 /* PocketCare.plist */; settings = {ASSET_TAGS = (); }; };
+		2D91E2871BE7CF4700B134B6 /* BackgroundTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91E2701BE7CF4700B134B6 /* BackgroundTask.m */; settings = {ASSET_TAGS = (); }; };
+		2D91E2881BE7CF4700B134B6 /* BTLECentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91E2731BE7CF4700B134B6 /* BTLECentralViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2D91E2891BE7CF4700B134B6 /* BTLEPeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91E2751BE7CF4700B134B6 /* BTLEPeripheralViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2D91E28A1BE7CF4700B134B6 /* TransViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91E2771BE7CF4700B134B6 /* TransViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2D91E28B1BE7CF4700B134B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91E2791BE7CF4700B134B6 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2D91E28C1BE7CF4700B134B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D91E27B1BE7CF4700B134B6 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
+		2D91E28D1BE7CF4700B134B6 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D91E27C1BE7CF4700B134B6 /* Default-Portrait@2x~ipad.png */; settings = {ASSET_TAGS = (); }; };
+		2D91E28E1BE7CF4700B134B6 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D91E27D1BE7CF4700B134B6 /* Default-Portrait~ipad.png */; settings = {ASSET_TAGS = (); }; };
+		2D91E28F1BE7CF4700B134B6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D91E27E1BE7CF4700B134B6 /* Default.png */; settings = {ASSET_TAGS = (); }; };
+		2D91E2901BE7CF4700B134B6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D91E27F1BE7CF4700B134B6 /* Default@2x.png */; settings = {ASSET_TAGS = (); }; };
+		2D91E2911BE7CF4700B134B6 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D91E2801BE7CF4700B134B6 /* Icon-114.png */; settings = {ASSET_TAGS = (); }; };
+		2D91E2921BE7CF4700B134B6 /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D91E2811BE7CF4700B134B6 /* Icon-144.png */; settings = {ASSET_TAGS = (); }; };
+		2D91E2931BE7CF4700B134B6 /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D91E2821BE7CF4700B134B6 /* Icon-57.png */; settings = {ASSET_TAGS = (); }; };
+		2D91E2941BE7CF4700B134B6 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D91E2831BE7CF4700B134B6 /* Icon-72.png */; settings = {ASSET_TAGS = (); }; };
+		2D91E2951BE7CF4700B134B6 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D91E2851BE7CF4700B134B6 /* MainStoryboard_iPad.storyboard */; settings = {ASSET_TAGS = (); }; };
+		2D91E2961BE7CF4700B134B6 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D91E2861BE7CF4700B134B6 /* MainStoryboard_iPhone.storyboard */; settings = {ASSET_TAGS = (); }; };
+		B92B559015E4621C0036A8A2 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92B558F15E4621C0036A8A2 /* CoreBluetooth.framework */; };
+		B9F9161A15D5806400B3B398 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F9161915D5806400B3B398 /* UIKit.framework */; };
+		B9F9161C15D5806400B3B398 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F9161B15D5806400B3B398 /* Foundation.framework */; };
+		B9F9161E15D5806400B3B398 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F9161D15D5806400B3B398 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D18A9F51BE0A218008CDD5E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		2D18A9F71BE0A21E008CDD5E /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		2D18A9FC1BE0A623008CDD5E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2D18A9FE1BE0A7CF008CDD5E /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		2D18AA031BE0B521008CDD5E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2D91E2411BE7CD2900B134B6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PocketCare/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		2D91E2421BE7CD2900B134B6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PocketCare/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		2D91E24C1BE7CD2900B134B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		2D91E2511BE7CD2900B134B6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PocketCare/main.m; sourceTree = SOURCE_ROOT; };
+		2D91E2521BE7CD2900B134B6 /* PocketCare-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PocketCare-Prefix.pch"; path = "PocketCare/PocketCare-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		2D91E2531BE7CD2900B134B6 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ReadMe.txt; path = PocketCare/ReadMe.txt; sourceTree = SOURCE_ROOT; };
+		2D91E2691BE7CE3800B134B6 /* PocketCare.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PocketCare.plist; path = PocketCare/PocketCare.plist; sourceTree = SOURCE_ROOT; };
+		2D91E26D1BE7CF4700B134B6 /* TransferService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferService.h; sourceTree = "<group>"; };
+		2D91E26F1BE7CF4700B134B6 /* BackgroundTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundTask.h; sourceTree = "<group>"; };
+		2D91E2701BE7CF4700B134B6 /* BackgroundTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundTask.m; sourceTree = "<group>"; };
+		2D91E2721BE7CF4700B134B6 /* BTLECentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLECentralViewController.h; sourceTree = "<group>"; };
+		2D91E2731BE7CF4700B134B6 /* BTLECentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLECentralViewController.m; sourceTree = "<group>"; };
+		2D91E2741BE7CF4700B134B6 /* BTLEPeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLEPeripheralViewController.h; sourceTree = "<group>"; };
+		2D91E2751BE7CF4700B134B6 /* BTLEPeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLEPeripheralViewController.m; sourceTree = "<group>"; };
+		2D91E2761BE7CF4700B134B6 /* TransViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransViewController.h; sourceTree = "<group>"; };
+		2D91E2771BE7CF4700B134B6 /* TransViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransViewController.m; sourceTree = "<group>"; };
+		2D91E2781BE7CF4700B134B6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D91E2791BE7CF4700B134B6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D91E27B1BE7CF4700B134B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2D91E27C1BE7CF4700B134B6 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		2D91E27D1BE7CF4700B134B6 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		2D91E27E1BE7CF4700B134B6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2D91E27F1BE7CF4700B134B6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2D91E2801BE7CF4700B134B6 /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114.png"; sourceTree = "<group>"; };
+		2D91E2811BE7CF4700B134B6 /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-144.png"; sourceTree = "<group>"; };
+		2D91E2821BE7CF4700B134B6 /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
+		2D91E2831BE7CF4700B134B6 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		2D91E2851BE7CF4700B134B6 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2D91E2861BE7CF4700B134B6 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B92B558F15E4621C0036A8A2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B9F9161515D5806400B3B398 /* PocketCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F9161915D5806400B3B398 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9F9161B15D5806400B3B398 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9F9161D15D5806400B3B398 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9F9161215D5806400B3B398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D18AA041BE0B521008CDD5E /* AudioToolbox.framework in Frameworks */,
+				B9F9161C15D5806400B3B398 /* Foundation.framework in Frameworks */,
+				2D18A9FD1BE0A623008CDD5E /* AVFoundation.framework in Frameworks */,
+				2D18A9F61BE0A218008CDD5E /* CoreAudio.framework in Frameworks */,
+				B92B559015E4621C0036A8A2 /* CoreBluetooth.framework in Frameworks */,
+				B9F9161A15D5806400B3B398 /* UIKit.framework in Frameworks */,
+				B9F9161E15D5806400B3B398 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D91E24A1BE7CD2900B134B6 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				2D91E24B1BE7CD2900B134B6 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = PocketCare/en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		2D91E26C1BE7CF4700B134B6 /* HeaderFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2D91E26D1BE7CF4700B134B6 /* TransferService.h */,
+			);
+			name = HeaderFiles;
+			path = PocketCare/HeaderFiles;
+			sourceTree = "<group>";
+		};
+		2D91E26E1BE7CF4700B134B6 /* Misc. */ = {
+			isa = PBXGroup;
+			children = (
+				2D91E26F1BE7CF4700B134B6 /* BackgroundTask.h */,
+				2D91E2701BE7CF4700B134B6 /* BackgroundTask.m */,
+			);
+			name = Misc.;
+			path = PocketCare/Misc.;
+			sourceTree = "<group>";
+		};
+		2D91E2711BE7CF4700B134B6 /* PocketCareController */ = {
+			isa = PBXGroup;
+			children = (
+				2D91E2721BE7CF4700B134B6 /* BTLECentralViewController.h */,
+				2D91E2731BE7CF4700B134B6 /* BTLECentralViewController.m */,
+				2D91E2741BE7CF4700B134B6 /* BTLEPeripheralViewController.h */,
+				2D91E2751BE7CF4700B134B6 /* BTLEPeripheralViewController.m */,
+				2D91E2761BE7CF4700B134B6 /* TransViewController.h */,
+				2D91E2771BE7CF4700B134B6 /* TransViewController.m */,
+				2D91E2781BE7CF4700B134B6 /* ViewController.h */,
+				2D91E2791BE7CF4700B134B6 /* ViewController.m */,
+			);
+			name = PocketCareController;
+			path = PocketCare/PocketCareController;
+			sourceTree = "<group>";
+		};
+		2D91E27A1BE7CF4700B134B6 /* PocketCareImages */ = {
+			isa = PBXGroup;
+			children = (
+				2D91E27B1BE7CF4700B134B6 /* Default-568h@2x.png */,
+				2D91E27C1BE7CF4700B134B6 /* Default-Portrait@2x~ipad.png */,
+				2D91E27D1BE7CF4700B134B6 /* Default-Portrait~ipad.png */,
+				2D91E27E1BE7CF4700B134B6 /* Default.png */,
+				2D91E27F1BE7CF4700B134B6 /* Default@2x.png */,
+				2D91E2801BE7CF4700B134B6 /* Icon-114.png */,
+				2D91E2811BE7CF4700B134B6 /* Icon-144.png */,
+				2D91E2821BE7CF4700B134B6 /* Icon-57.png */,
+				2D91E2831BE7CF4700B134B6 /* Icon-72.png */,
+			);
+			name = PocketCareImages;
+			path = PocketCare/PocketCareImages;
+			sourceTree = "<group>";
+		};
+		2D91E2841BE7CF4700B134B6 /* PocketCareView */ = {
+			isa = PBXGroup;
+			children = (
+				2D91E2851BE7CF4700B134B6 /* MainStoryboard_iPad.storyboard */,
+				2D91E2861BE7CF4700B134B6 /* MainStoryboard_iPhone.storyboard */,
+			);
+			name = PocketCareView;
+			path = PocketCare/PocketCareView;
+			sourceTree = "<group>";
+		};
+		B9F9160A15D5806400B3B398 = {
+			isa = PBXGroup;
+			children = (
+				2D91E26C1BE7CF4700B134B6 /* HeaderFiles */,
+				2D91E26E1BE7CF4700B134B6 /* Misc. */,
+				2D91E2711BE7CF4700B134B6 /* PocketCareController */,
+				2D91E27A1BE7CF4700B134B6 /* PocketCareImages */,
+				2D91E2841BE7CF4700B134B6 /* PocketCareView */,
+				B9F9161F15D5806400B3B398 /* Pocketcare */,
+				B9F9161815D5806400B3B398 /* Frameworks */,
+				B9F9161615D5806400B3B398 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9F9161615D5806400B3B398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9F9161515D5806400B3B398 /* PocketCare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9F9161815D5806400B3B398 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D18AA031BE0B521008CDD5E /* AudioToolbox.framework */,
+				2D18A9FE1BE0A7CF008CDD5E /* AudioUnit.framework */,
+				2D18A9FC1BE0A623008CDD5E /* AVFoundation.framework */,
+				2D18A9F71BE0A21E008CDD5E /* CoreAudioKit.framework */,
+				2D18A9F51BE0A218008CDD5E /* CoreAudio.framework */,
+				B92B558F15E4621C0036A8A2 /* CoreBluetooth.framework */,
+				B9F9161915D5806400B3B398 /* UIKit.framework */,
+				B9F9161B15D5806400B3B398 /* Foundation.framework */,
+				B9F9161D15D5806400B3B398 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9F9161F15D5806400B3B398 /* Pocketcare */ = {
+			isa = PBXGroup;
+			children = (
+				2D91E2411BE7CD2900B134B6 /* AppDelegate.h */,
+				2D91E2421BE7CD2900B134B6 /* AppDelegate.m */,
+				2D91E24A1BE7CD2900B134B6 /* en.lproj */,
+				2D91E2531BE7CD2900B134B6 /* ReadMe.txt */,
+				B9F9162015D5806400B3B398 /* Supporting Files */,
+			);
+			name = Pocketcare;
+			path = "BTLE Transfer";
+			sourceTree = "<group>";
+		};
+		B9F9162015D5806400B3B398 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D91E2691BE7CE3800B134B6 /* PocketCare.plist */,
+				2D91E2521BE7CD2900B134B6 /* PocketCare-Prefix.pch */,
+				2D91E2511BE7CD2900B134B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9F9161415D5806400B3B398 /* PocketCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9F9163C15D5806500B3B398 /* Build configuration list for PBXNativeTarget "PocketCare" */;
+			buildPhases = (
+				B9F9161115D5806400B3B398 /* Sources */,
+				B9F9161215D5806400B3B398 /* Frameworks */,
+				B9F9161315D5806400B3B398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketCare;
+			productName = "LE Transfer";
+			productReference = B9F9161515D5806400B3B398 /* PocketCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9F9160C15D5806400B3B398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					B9F9161415D5806400B3B398 = {
+						DevelopmentTeam = 3TWR7QGRLZ;
+					};
+				};
+			};
+			buildConfigurationList = B9F9160F15D5806400B3B398 /* Build configuration list for PBXProject "PocketCare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9F9160A15D5806400B3B398;
+			productRefGroup = B9F9161615D5806400B3B398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9F9161415D5806400B3B398 /* PocketCare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9F9161315D5806400B3B398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D91E2931BE7CF4700B134B6 /* Icon-57.png in Resources */,
+				2D91E2961BE7CF4700B134B6 /* MainStoryboard_iPhone.storyboard in Resources */,
+				2D91E28C1BE7CF4700B134B6 /* Default-568h@2x.png in Resources */,
+				2D91E25E1BE7CD2900B134B6 /* InfoPlist.strings in Resources */,
+				2D91E2901BE7CF4700B134B6 /* Default@2x.png in Resources */,
+				2D91E2951BE7CF4700B134B6 /* MainStoryboard_iPad.storyboard in Resources */,
+				2D91E26A1BE7CE3800B134B6 /* PocketCare.plist in Resources */,
+				2D91E28D1BE7CF4700B134B6 /* Default-Portrait@2x~ipad.png in Resources */,
+				2D91E28F1BE7CF4700B134B6 /* Default.png in Resources */,
+				2D91E28E1BE7CF4700B134B6 /* Default-Portrait~ipad.png in Resources */,
+				2D91E2911BE7CF4700B134B6 /* Icon-114.png in Resources */,
+				2D91E2941BE7CF4700B134B6 /* Icon-72.png in Resources */,
+				2D91E2921BE7CF4700B134B6 /* Icon-144.png in Resources */,
+				2D91E2621BE7CD2900B134B6 /* ReadMe.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9F9161115D5806400B3B398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D91E28B1BE7CF4700B134B6 /* ViewController.m in Sources */,
+				2D91E2591BE7CD2900B134B6 /* AppDelegate.m in Sources */,
+				2D91E2891BE7CF4700B134B6 /* BTLEPeripheralViewController.m in Sources */,
+				2D91E2881BE7CF4700B134B6 /* BTLECentralViewController.m in Sources */,
+				2D91E2871BE7CF4700B134B6 /* BackgroundTask.m in Sources */,
+				2D91E2611BE7CD2900B134B6 /* main.m in Sources */,
+				2D91E28A1BE7CF4700B134B6 /* TransViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D91E24B1BE7CD2900B134B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D91E24C1BE7CD2900B134B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9F9163A15D5806500B3B398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		B9F9163B15D5806500B3B398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		B9F9163D15D5806500B3B398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/PocketCare/PocketCare-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/PocketCare/PocketCare.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = PocketCare;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9F9163E15D5806500B3B398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/PocketCare/PocketCare-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/PocketCare/PocketCare.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = PocketCare;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9F9160F15D5806400B3B398 /* Build configuration list for PBXProject "PocketCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F9163A15D5806500B3B398 /* Debug */,
+				B9F9163B15D5806500B3B398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9F9163C15D5806500B3B398 /* Build configuration list for PBXNativeTarget "PocketCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F9163D15D5806500B3B398 /* Debug */,
+				B9F9163E15D5806500B3B398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9F9160C15D5806400B3B398 /* Project object */;
+}
